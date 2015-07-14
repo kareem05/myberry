@@ -1,6 +1,9 @@
 
-<%= link_to "Edit Post", edit_post_path %>
-
 <h1> <%= @post.title %> </h1>
 
+
 <h3><%= @post.body %> </h3>
+<p>Category:<%= link_to @post.category.name,category_path(:id => @post.category.id) %></p>
+</br>
+<small> <%= @post.created_at.strftime("%b %d. %Y") %> </small>
+<p><%= link_to"Back",posts_path%></p>

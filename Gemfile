@@ -8,7 +8,7 @@ gem 'taps'
 gem 'pg'
 gem'devise'
 gem 'activeadmin', github: 'activeadmin'
-gem 'rails_12factor'
+gem 'rails_12factor', '~> 0.0.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

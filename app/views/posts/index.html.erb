@@ -4,5 +4,16 @@
 <% @posts.each do |post| %>
 <h3><%= link_to  post.title,post%> </h3>
 <p><%= post.body %> </p>
+<<<<<<< HEAD
 
 <% end %>
+=======
+<small> <%= post.created_at.strftime("%b %d. %Y") %> </small>
+</body>
+
+<hr>
+
+
+<% end %>
+<%= link_to "add new post",new_post_path%>
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe

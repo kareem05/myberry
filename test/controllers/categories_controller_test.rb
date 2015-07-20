@@ -1,6 +1,7 @@
 require 'test_helper'
 
 class CategoriesControllerTest < ActionController::TestCase
+<<<<<<< HEAD
   setup do
     @category = categories(:one)
   end
@@ -46,4 +47,9 @@ class CategoriesControllerTest < ActionController::TestCase
 
     assert_redirected_to categories_path
   end
+=======
+  # test "the truth" do
+  #   assert true
+  # end
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
 end

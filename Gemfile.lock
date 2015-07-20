@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GIT
   remote: git://github.com/activeadmin/activeadmin.git
   revision: 7c18de4cbcf5180749dea0000402b39f9f469784
@@ -16,6 +17,8 @@ GIT
       ransack (~> 1.3)
       sass-rails
 
+=======
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,6 +57,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+<<<<<<< HEAD
     arbre (1.0.3)
       activesupport (>= 3.0.0)
     arel (6.0.0)
@@ -63,6 +67,11 @@ GEM
     bourbon (4.2.3)
       sass (~> 3.4)
       thor
+=======
+    arel (6.0.0)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
     builder (3.2.2)
     byebug (5.0.0)
       columnize (= 0.9.0)
@@ -75,6 +84,7 @@ GEM
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
     debug_inspector (0.0.2)
+<<<<<<< HEAD
     devise (3.5.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -98,6 +108,13 @@ GEM
       has_scope (~> 0.6.0.rc)
       railties (>= 3.2, < 5)
       responders
+=======
+    erubis (2.7.0)
+    execjs (2.5.2)
+    globalid (0.3.5)
+      activesupport (>= 4.1.0)
+    i18n (0.7.0)
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
     jbuilder (2.3.0)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -105,12 +122,16 @@ GEM
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
+<<<<<<< HEAD
     jquery-ui-rails (5.0.5)
       railties (>= 3.2.16)
     json (1.8.3)
     kaminari (0.16.3)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+=======
+    json (1.8.3)
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -121,10 +142,14 @@ GEM
     multi_json (1.11.1)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+<<<<<<< HEAD
     orm_adapter (0.5.0)
     pg (0.18.2)
     polyamorous (1.2.0)
       activerecord (>= 3.0)
+=======
+    pg (0.18.2)
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -153,6 +178,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
+<<<<<<< HEAD
     ransack (1.6.6)
       actionpack (>= 3.0)
       activerecord (>= 3.0)
@@ -164,6 +190,9 @@ GEM
       railties (>= 4.2.0, < 5)
     rest-client (1.6.7)
       mime-types (>= 1.16)
+=======
+    rdoc (4.2.0)
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
     sass (3.4.15)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -174,9 +203,12 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+<<<<<<< HEAD
     sequel (3.20.0)
     sinatra (1.0)
       rack (>= 1.0)
+=======
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
     spring (1.3.6)
     sprockets (3.2.0)
       rack (~> 1.0)
@@ -184,11 +216,14 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
+<<<<<<< HEAD
     taps (0.3.24)
       rack (>= 1.0.1)
       rest-client (>= 1.4.0, < 1.7.0)
       sequel (~> 3.20.0)
       sinatra (~> 1.0.0)
+=======
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
@@ -199,8 +234,11 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+<<<<<<< HEAD
     warden (1.2.3)
       rack (>= 1.0)
+=======
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
     web-console (2.1.3)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
@@ -211,10 +249,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
   activeadmin!
   byebug
   coffee-rails (~> 4.1.0)
   devise
+=======
+  byebug
+  coffee-rails (~> 4.1.0)
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
   jbuilder (~> 2.0)
   jquery-rails
   pg
@@ -222,7 +265,10 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
+<<<<<<< HEAD
   taps
+=======
+>>>>>>> ff6dc8659dfeeb083599c4de4a3194abc72a20fe
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
